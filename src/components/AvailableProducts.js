@@ -5,42 +5,72 @@ import "../styles/availableProducts.scss";
 
 const responsive = {
 	desktop: {
-		breakpoint: { max: 3000, min: 1024 },
-		items: 4,
-		slidesToSlide: 4, // optional, default to 1.
-	},
-	tablet: {
-		breakpoint: { max: 1024, min: 464 },
-		items: 2,
-		slidesToSlide: 2, // optional, default to 1.
+		breakpoint: {
+			max: 3000,
+			min: 1024,
+		},
+		items: 3,
+		partialVisibilityGutter: 40,
 	},
 	mobile: {
-		breakpoint: { max: 464, min: 0 },
+		breakpoint: {
+			max: 464,
+			min: 0,
+		},
 		items: 1,
-		slidesToSlide: 1, // optional, default to 1.
+		partialVisibilityGutter: 30,
 	},
+	tablet: {
+		breakpoint: {
+			max: 1024,
+			min: 464,
+		},
+		items: 2,
+		partialVisibilityGutter: 30,
+	},
+	// desktop: {
+	// 	breakpoint: { max: 3000, min: 1024 },
+	// 	items: 4,
+	// 	slidesToSlide: 4, // optional, default to 1.
+	// },
+	// tablet: {
+	// 	breakpoint: { max: 1024, min: 464 },
+	// 	items: 2,
+	// 	slidesToSlide: 2, // optional, default to 1.
+	// },
+	// mobile: {
+	// 	breakpoint: { max: 464, min: 0 },
+	// 	items: 1,
+	// 	slidesToSlide: 1, // optional, default to 1.
+	// },
 };
 
-const AvailableProducts = (props) => {
+const AvailableProducts = () => {
 	return (
 		<div className='main'>
 			<Carousel
-				swipeable={false}
-				draggable={false}
-				showDots={false}
-				responsive={responsive}
+				additionalTransfrom={0}
+				arrows={true}
+				autoPlay={true}
+				autoPlaySpeed={2000}
+				centerMode={false}
+				className=''
+				containerClass='container-with-dots'
+				dotListClass=''
+				draggable={true}
 				ssr={true} // means to render carousel on server-side.
+				focusOnSelect={false}
 				infinite={true}
-				autoPlay={props.deviceType !== "mobile" ? true : false}
-				autoPlaySpeed={1000}
+				itemClass=''
 				keyBoardControl={true}
-				customTransition='all .5'
-				transitionDuration={500}
-				containerClass='carousel-container'
-				removeArrowOnDeviceType={["tablet", "mobile"]}
-				deviceType={props.deviceType}
-				dotListClass='custom-dot-list-style'
-				itemClass='carousel-item-padding-40-px'
+				minimumTouchDrag={80}
+				renderButtonGroupOutside={false}
+				renderDotsOutside={false}
+				responsive={responsive}
+				showDots={false}
+				sliderClass=''
+				slidesToSlide={2}
+				swipeable={true}
 			>
 				<div className='product-container'>
 					<div>
