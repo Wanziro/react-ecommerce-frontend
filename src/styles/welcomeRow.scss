@@ -1,0 +1,84 @@
+@import "./config";
+
+.Welcome-container {
+	padding: 0px 15px;
+
+	.left-bar {
+		max-width: 15%;
+	}
+	.right-bar {
+		max-width: 30%;
+	}
+	.intro {
+		padding-left: 15px;
+		text-align: center;
+
+		p:first-child {
+			font-weight: 600;
+			font-family: Arial, Helvetica, sans-serif;
+			color: #333;
+			font-size: 14px;
+		}
+		p:last-child {
+			margin: 0px;
+		}
+		.btns-container {
+			button {
+				width: 100%;
+				margin-bottom: 10px;
+				background: $blue1;
+				border-radius: 25px;
+				text-transform: capitalize;
+				font-size: 12px;
+				color: #fff;
+			}
+		}
+		.intro-btns-2 {
+			button {
+				margin: 0px 5px;
+				background: $blue1;
+				color: #fff;
+				width: 35px !important;
+				min-width: 35px !important;
+			}
+		}
+	}
+
+	.row-container {
+		padding-right: 10px;
+
+		.rw {
+			height: 94px;
+			background: linear-gradient(to right, $color7, #fff);
+			margin-top: 10px;
+			padding: 5px;
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			box-shadow: -1px -1px 10px #ccc;
+
+			img {
+				width: 150px;
+				height: 90px;
+			}
+			p {
+				margin: 0px;
+				font-family: sans-serif;
+			}
+			button {
+				// background: transparent;
+				// background: $btn2;
+				background: $blue1;
+				border: 1px solid $blue1;
+				text-transform: capitalize;
+				// color: $blue1;
+				border-radius: 6px;
+				padding: 5px 10px;
+				font-size: 12px;
+			}
+		}
+		.rw:first-child {
+			margin-top: 0px;
+		}
+	}
+}
