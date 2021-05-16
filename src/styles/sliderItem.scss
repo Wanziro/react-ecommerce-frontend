@@ -1,0 +1,31 @@
+@import "./config";
+
+.product-container {
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 0px 10px;
+	margin-left: 0px;
+	border-radius: 6px;
+
+	img {
+		height: 180px;
+		width: 100%;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+	}
+	.product-details {
+		padding: 5px;
+
+		p {
+			padding: 0px;
+			margin: 0px;
+			color: #333;
+		}
+
+		span {
+			text-transform: uppercase;
+			color: $btn3;
+			font-weight: 600;
+		}
+	}
+}

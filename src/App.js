@@ -1,15 +1,15 @@
 import React from "react";
 import NavBar from "./components/NavBar/NavBar";
-import WelcomeRow from "./components/WelcomeRow/WelcomeRow";
-import AvailableProducts from "./components/AvailableProducts";
+import Menu from "./components/Menus/Menu";
+import Body from "./components/Body/Body";
 
 function App() {
 	return (
 		<>
 			<NavBar />
 			<div className='main-container'>
-				<WelcomeRow />
-				<AvailableProducts deviceType='desktop' />
+				<Menu />
+				<Body />
 			</div>
 		</>
 	);

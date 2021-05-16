@@ -1,23 +1,43 @@
 @import "./config";
 
 .navbar {
-	background: $white1;
-	color: #000;
 	position: fixed;
 	top: 0;
 	width: 100%;
-	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+	// box-shadow: 2px 2px 15px #ccc;
+	z-index: 2000;
 
-	.sub-header-nav {
-		width: 100%;
-		padding-top: 5px;
-		margin-right: 200px;
-		ul li {
-			float: right;
-			list-style: none;
-			padding: 0px 15px;
-			color: #333;
-			font-size: 14px;
+	.search-bar {
+		display: flex;
+		justify-content: space-around;
+		width: 50%;
+
+		input {
+			height: 40px;
+			border: 1px solid #ccc;
+			border-right: none;
+			width: 100%;
+			padding: 5px 10px;
+			outline: none;
+			background: $color1;
+		}
+		select {
+			height: 40px;
+			width: 150px;
+			border: 1px solid #ccc;
+			border-top-left-radius: 6px;
+			border-bottom-left-radius: 6px;
+			border-right: none;
+			padding: 5px;
+			outline: none;
+			background: $color7;
+		}
+		button {
+			background: $blue2;
+			height: 40px;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+			color: #fff;
 		}
 	}
 
@@ -27,68 +47,21 @@
 		align-items: center;
 		padding: 15px 30px;
 		width: 100%;
-
-		.search-bar {
-			display: relative;
-			display: flex;
-			justify-content: space-between;
-			width: 60%;
-
-			input {
-				height: 40px;
-				border: 2px solid $blue1;
-				border-left: 1px solid #ccc;
-				border-right: none;
-				width: 100%;
-				padding: 5px;
-				outline: none;
-			}
-			select {
-				height: 40px;
-				width: 150px;
-				border-top-left-radius: 25px;
-				border-bottom-left-radius: 25px;
-				border: 2px solid $blue1;
-				border-right: none;
-				padding: 5px;
-				outline: none;
-			}
-			button {
-				background: $blue1;
-				height: 40px;
-				border-radius: 25px;
-				border-top-left-radius: 0px;
-				border-bottom-left-radius: 0px;
-				color: #fff;
-			}
-		}
+		background: $black1;
+		color: $color8;
 
 		.navbar-right-side {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+
+			button {
+				border: 1px solid $btn3;
+				color: $btn3;
+			}
 		}
 		.navbar-right-side > div {
 			padding: 0px 15px;
-		}
-	}
-	.nav-categories {
-		width: 100%;
-		padding: 5px 15px;
-		background: #fff;
-		// color: $color3;
-		color: rgba(47, 47, 158, 0.698);
-
-		ul {
-			padding: 0px;
-			margin: 0px;
-		}
-
-		ul li {
-			display: inline-block;
-			list-style: none;
-			padding: 0px 10px;
-			cursor: pointer;
 		}
 	}
 }

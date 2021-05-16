@@ -20,8 +20,12 @@ body {
 	line-height: 1.5;
 	color: #858796;
 	text-align: left;
-	background-color: $body-bg;
+	background-color: $color2;
+	background-position: top left, top left;
+	background-repeat: repeat-x, repeat;
+	background-size: 100% 30em, auto;
+	// font-family: "Open Sans", sans-serif;
 }
 .main-container {
-	margin-top: 170px;
+	margin-top: 70px;
 }
