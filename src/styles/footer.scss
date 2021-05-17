@@ -1,0 +1,66 @@
+@import "./config";
+
+.footer-container {
+	background: $black1;
+	color: $color7;
+
+	.footer-contents {
+		h1 {
+			font-size: 20px;
+			font-weight: 500;
+		}
+		ul {
+			padding: 0px;
+			margin: 0px;
+			margin-left: 10px;
+		}
+		ul li {
+			list-style: none;
+			font-family: Arial;
+			font-size: 14px;
+			color: $btn2;
+		}
+		button {
+			background: $bg1;
+			display: block;
+			margin-bottom: 5px;
+			text-transform: capitalize;
+			padding: 10px;
+		}
+	}
+	.footer-close {
+		background: $btn2;
+		color: $black1;
+		text-align: center;
+		padding: 10px;
+		font-weight: bold;
+		font-style: italic;
+		margin-top: 10px;
+	}
+}
+
+.top-searches {
+	background: $color7;
+
+	h4 {
+		color: #000;
+		font-weight: 500;
+		margin: 0px;
+		padding: 0px 5px;
+	}
+
+	ul {
+		margin: 0px;
+		padding: 0px;
+
+		li {
+			display: inline-block;
+			list-style: square;
+			padding: 10px;
+			text-transform: capitalize;
+		}
+	}
+}
+.top-searches .container > div {
+	padding: 20px 0px;
+}

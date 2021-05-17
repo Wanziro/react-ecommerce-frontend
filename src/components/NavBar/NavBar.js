@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { Button } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import PostAddIcon from "@material-ui/icons/PostAdd";
@@ -14,12 +14,16 @@ function NavBar() {
 		return (
 			<div className='navbar-right-side'>
 				<div>
-					<AccountCircleIcon size='large' />
-					<span>Login</span>
+					<Link to='/login'>
+						<AccountCircleIcon size='large' />
+						<span>Login</span>
+					</Link>
 				</div>
 				<div>
-					<PersonAddIcon size='large' />
-					<span>Register</span>
+					<Link to='/register'>
+						<PersonAddIcon size='large' />
+						<span>Register</span>
+					</Link>
 				</div>
 				<div>
 					<Button>

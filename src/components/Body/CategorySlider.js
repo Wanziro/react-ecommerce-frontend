@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import SliderItem from "./SliderItem";
-import ArrowDownIcon from "@material-ui/icons/ArrowDownward";
+import ArrowDownIcon from "@material-ui/icons/ExpandMore";
 
 const responsive = {
 	desktop: {
@@ -87,7 +87,6 @@ const CategorySlider = ({ data, categoryName }) => {
 					<SliderItem item={item} />
 				))}
 			</Carousel>
-			;
 		</>
 	);
 };

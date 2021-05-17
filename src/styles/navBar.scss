@@ -30,7 +30,7 @@
 			border-right: none;
 			padding: 5px;
 			outline: none;
-			background: $color7;
+			background: $color1;
 		}
 		button {
 			background: $blue2;
@@ -49,6 +49,11 @@
 		width: 100%;
 		background: $black1;
 		color: $color8;
+
+		a {
+			color: $color8;
+			text-decoration: none;
+		}
 
 		.navbar-right-side {
 			display: flex;
