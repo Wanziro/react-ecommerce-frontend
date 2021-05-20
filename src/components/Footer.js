@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@material-ui/core";
-import { Twitter, Facebook, Instagram, LinkedIn } from "@material-ui/icons";
+import { Twitter, Facebook, Instagram } from "@material-ui/icons";
 import "../styles/footer.scss";
 
 const TopSearches = () => {
@@ -41,8 +41,8 @@ const TopSearches = () => {
 				<div>
 					<h4>Top Searches</h4>
 					<ul>
-						{topSearches.map((item) => (
-							<li>{item}</li>
+						{topSearches.map((item, index) => (
+							<li key={index}>{item}</li>
 						))}
 					</ul>
 				</div>
@@ -99,16 +99,16 @@ const Footer = () => {
 							<div className='footer-contents'>
 								<h1>Follow Us</h1>
 								<Button>
-									<Facebook /> Facebook
+									<Facebook />
+									<div className='w-100 text-center'>Facebook</div>
 								</Button>
 								<Button>
-									<Instagram /> Instagram
+									<Instagram />
+									<div className='w-100 text-center'> Instagram</div>
 								</Button>
 								<Button>
-									<Twitter /> Twitter
-								</Button>
-								<Button>
-									<LinkedIn /> LinkedIn
+									<Twitter />
+									<div className='w-100 text-center'>Twitter</div>
 								</Button>
 							</div>
 						</div>

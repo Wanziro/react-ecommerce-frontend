@@ -19,14 +19,14 @@ function Register() {
 					<input type='text' placeholder='Username' />
 					<input type='password' placeholder='Password' />
 					<Button>Login</Button>
-					<div class='text-center mt-2 mb-2'>OR</div>
+					<div className='text-center mt-2 mb-2'>OR</div>
 					<Button className='google'>
 						<Search />
 						<div className='w-100'>Login With Google</div>
 					</Button>
-					<div class='text-center mt-2 mb-2'>
+					<div className='text-center mt-2 mb-2'>
 						<span>
-							Don't an account? <Link to='/register'>Register</Link>
+							Already have an account? <Link to='/login'>Login</Link>
 						</span>
 						<p className='mb-1'>Forgot Password?</p>
 					</div>

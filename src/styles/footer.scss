@@ -26,6 +26,9 @@
 			margin-bottom: 5px;
 			text-transform: capitalize;
 			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 	}
 	.footer-close {
@@ -63,4 +66,13 @@
 }
 .top-searches .container > div {
 	padding: 20px 0px;
+}
+
+@media (max-width: 764px) {
+	.footer-container .footer-contents ul {
+		margin-left: 0px;
+	}
+	.footer-container .footer-contents button {
+		width: 100%;
+	}
 }

@@ -83,8 +83,8 @@ const CategorySlider = ({ data, categoryName }) => {
 				slidesToSlide={2}
 				swipeable={true}
 			>
-				{data.map((item) => (
-					<SliderItem item={item} />
+				{data.map((item, index) => (
+					<SliderItem item={item} key={index} />
 				))}
 			</Carousel>
 		</>

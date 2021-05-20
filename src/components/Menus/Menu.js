@@ -6,9 +6,9 @@ function Menu() {
 		<div className='menu-container'>
 			<ul>
 				<li>
-					<div class='dropdown'>
-						<span class='dropbtn'>Cars & Vehicles</span>
-						<div class='dropdown-content'>
+					<div className='dropdown'>
+						<span className='dropbtn'>Cars & Vehicles</span>
+						<div className='dropdown-content'>
 							<a href='/'>Lost & Found Stuff</a>
 							<a href='/'>Music, Bands & Musicians</a>
 							<a href='/'>Rideshare & Car Pooling</a>
@@ -19,9 +19,9 @@ function Menu() {
 					</div>
 				</li>
 				<li>
-					<div class='dropdown'>
-						<span class='dropbtn'>For Sale</span>
-						<div class='dropdown-content'>
+					<div className='dropdown'>
+						<span className='dropbtn'>For Sale</span>
+						<div className='dropdown-content'>
 							<a href='/'>Artists & Theatres</a>
 							<a href='/'>Classes</a>
 							<a href='/'>Events, Gigs & Nightlife</a>
@@ -30,9 +30,9 @@ function Menu() {
 					</div>
 				</li>
 				<li>
-					<div class='dropdown'>
-						<span class='dropbtn'>Property</span>
-						<div class='dropdown-content'>
+					<div className='dropdown'>
+						<span className='dropbtn'>Property</span>
+						<div className='dropdown-content'>
 							<a href='/'>Artists & Theatres</a>
 							<a href='/'>Classes</a>
 							<a href='/'>Events, Gigs & Nightlife</a>
@@ -44,9 +44,9 @@ function Menu() {
 					</div>
 				</li>
 				<li>
-					<div class='dropdown'>
-						<span class='dropbtn'>Jobs</span>
-						<div class='dropdown-content'>
+					<div className='dropdown'>
+						<span className='dropbtn'>Jobs</span>
+						<div className='dropdown-content'>
 							<a href='/'>Artists & Theatres</a>
 							<a href='/'>Classes</a>
 							<a href='/'>Events, Gigs & Nightlife</a>
@@ -58,9 +58,9 @@ function Menu() {
 					</div>
 				</li>
 				<li>
-					<div class='dropdown'>
-						<span class='dropbtn'>Services</span>
-						<div class='dropdown-content'>
+					<div className='dropdown'>
+						<span className='dropbtn'>Services</span>
+						<div className='dropdown-content'>
 							<a href='/'>Artists & Theatres</a>
 							<a href='/'>Classes</a>
 							<a href='/'>Events, Gigs & Nightlife</a>
@@ -71,9 +71,9 @@ function Menu() {
 					</div>
 				</li>
 				<li>
-					<div class='dropdown'>
-						<span class='dropbtn'>Community</span>
-						<div class='dropdown-content'>
+					<div className='dropdown'>
+						<span className='dropbtn'>Community</span>
+						<div className='dropdown-content'>
 							<a href='/'>Artists & Theatres</a>
 							<a href='/'>Groups & Associations</a>
 							<a href='/'>Lost & Found Stuff</a>
@@ -86,9 +86,9 @@ function Menu() {
 					</div>
 				</li>
 				<li>
-					<div class='dropdown'>
-						<span class='dropbtn'>Pets</span>
-						<div class='dropdown-content'>
+					<div className='dropdown'>
+						<span className='dropbtn'>Pets</span>
+						<div className='dropdown-content'>
 							<a href='/'>Artists & Theatres</a>
 							<a href='/'>Classes</a>
 							<a href='/'>Events, Gigs & Nightlife</a>

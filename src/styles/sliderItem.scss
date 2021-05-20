@@ -29,3 +29,16 @@
 		}
 	}
 }
+
+@media (max-width: 1024px) {
+	.product-container img {
+		height: 300px;
+		width: 100%;
+	}
+}
+@media (max-width: 764px) {
+	.product-container img {
+		height: 150px;
+		width: 100%;
+	}
+}

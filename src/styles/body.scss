@@ -68,3 +68,11 @@
 		}
 	}
 }
+
+@media (max-width: 764px) {
+	.body-container .trending-container img,
+	.body-container .category-container img {
+		height: auto;
+		width: 100%;
+	}
+}

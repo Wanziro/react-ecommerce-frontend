@@ -52,3 +52,15 @@
 		}
 	}
 }
+
+@media (max-width: 1024px) {
+	.login-container .login-form {
+		width: 70%;
+	}
+}
+
+@media (max-width: 764px) {
+	.login-container .login-form {
+		width: 100%;
+	}
+}
