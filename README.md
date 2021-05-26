@@ -9,7 +9,8 @@ Use to sell their products online.
 Its frontend is made with react while 
 
 The back end is made with node js through the power of mysql!!
-#####
+
+Below are some of the screenshoots of this project
 
 ![Output 1](https://github.com/Wanziro/ayc-business-group-ltd/blob/master/public/assets/img/result1.png)
 ![Output 2](https://github.com/Wanziro/ayc-business-group-ltd/blob/master/public/assets/img/result2.png)
