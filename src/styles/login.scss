@@ -52,7 +52,26 @@
 		}
 	}
 }
-
+.register {
+	.login-form {
+		input {
+			padding: 5px 10px;
+			margin: 0px;
+		}
+		button {
+			padding: 5px;
+		}
+		.google {
+			padding: 5px 20px;
+		}
+		.message {
+			color: $danger;
+			padding: 0px 10px;
+			padding-top: 2px;
+			padding-bottom: 14px;
+		}
+	}
+}
 @media (max-width: 1024px) {
 	.login-container .login-form {
 		width: 70%;
